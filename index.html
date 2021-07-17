@@ -4,12 +4,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> My Resume </title>
 <style>
-* {  font-family: 'Times New Roman', serif;
-     background-image: url('./blue.jpg');
+* {  
+    font-family: 'Times New Roman', serif;
+    background-image: url('./blue.jpg');
+
 }	
 table {
 	border-collapse: collapse;
-	width : 60%;
+	width : 76%;
 }
 td {
 	font-size:20px;
@@ -22,7 +24,8 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-pre { font-size: 20px;
+pre { 
+    font-size: 20px;
 } 
 ul,ol{font-size: 20px;}
 
@@ -33,22 +36,30 @@ button{
       color: black;
       font-weight: bold;
 }
-#h01{text-align: center;
+#h01{ 
+      text-align: center;
       padding: 35px;
       font-size: 300%;
-      border: 15px solid maroon;
-    }
+      border: 15px maroon;
+      border-style: inset;
+}
+#t1{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-right: 150px;
+  margin-left: 60px;
+}
 </style>
 </head>
 <body>
     <h1 id="h01">Resume</h1>
     <hr>
-	<img style="border-radius: 10px;" src = "./mine.jpeg" alt="sophia's picture" width = "150" height = "150"  align = "right" border="4" >
+	<img style="border-radius: 10px;" src = "./mine.jpeg" alt="sophia's picture" width = "160" height = "160"  align = "right" border="4" >
 	<pre>
 <b>Name       :</b> Sophiasree.K
 <b>Address   :</b> 158,Mudangiyar road,Rajapalayam.
-<b>E-mail      :</b> <a href="mailto:sophiasreekumar@gmail.com">sophiasreekumar@gmail.com</a>
-<b>Linkedin  :</b> <a href="https://www.linkedin.com/in/sophiasree-k-8915b0201">Linkedin url</a>
+<b>E-mail      :</b> <a href="mailto:sophiasreekumar@gmail.com"><img src="./mail.jpg" alt="gmail" width="60" height="30"></a>
+<b>Linkedin  :</b><a href="https://www.linkedin.com/in/sophiasree-k-8915b0201"><img src="./link.png" alt="lnkdin" width="50" height="30"></a>
 <b>Phone No :</b>  8220459519
 	</pre>
 	<hr>
@@ -56,7 +67,7 @@ button{
 </p>
 <hr>
  <h1>Education</h1>
-    <table>
+    <table id="t1">
     	<tr>
     		<th>Degree</th>
     		<th>Institution</th>
